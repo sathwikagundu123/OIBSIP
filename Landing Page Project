@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="box" id="logo">
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/48/09/gift-deal-logo-template-creative-vector-38334809.jpg" alt="Gift Deal Logo" width="90%" />
+
+        </div>
+        <div class="box" id="head">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#carts">Gifts</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="box" id="script">
+          <p>Send <span class="role"></span></p>
+        </div>
+
+        <div class="box" id="carts">
+          <p id="title">Special Gifts:</p>
+       
+          <div class="cards">
+            <div class="cart">
+              <figure>
+                <img src="https://m.media-amazon.com/images/I/717wDsKs2qL.jpg" alt="" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>20% Discount on teddies</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="https://assets.winni.in/product/primary/2014/6/30060.jpeg?dpr=1&w=1000" alt="" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>10% Discount on flowers</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD_ZD-REv-1gAA6BWxCdaZVfcWY3fYlgvrjg&s" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>30% Discount on diaries</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="https://m.media-amazon.com/images/I/A1SIyuoJ8VL.jpg" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>25% Discount on chocolates</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="https://s.alicdn.com/@sc04/kf/Hb58ce39f65f543a1861e0520d85d36c4K.jpg_720x720q50.jpg" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>15% Discount on wallets</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="https://www.dayspringpens.com/cdn/shop/articles/Featured_Image_Muliple_Pens.webp?v=1697312891" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>5% Discount on pens</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf_ljmMYUjCLhzsGZoclOCLx0mHtKaMEtOxw&s" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>5% Discount on watches</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="https://5.imimg.com/data5/SK/AB/QV/SELLER-69745607/customized-mugs-gifts.jpg" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>35% Discount on mugs</figcaption>
+            </div>
+          </div>
+        </div>
+        <div class="box" id="footer">
+          <h2>Contact Us</h2>
+          <hr size="3%" color="pink" width="50%" />
+          <div class="links">
+            <a href="mailto:shop@example.com" target="_blank">
+              <img src="https://w7.pngwing.com/pngs/799/918/png-transparent-mail-google-gmail-google-s-logo-icon.png" alt="" width="3.8%" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbQa_YZBOm5gy0DZnVez-5J3G3AFwdZ46Vcw&s" alt="" width="3.8%"
+            /></a>
+            <a href="https://www.whatsapp.com/" target="_blank"
+              ><img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-whatsapp-icon-png-image_3584845.jpg" alt="" width="3.5%"
+            /></a>
+            <a href="https:www.instagram.com" target="_blank"
+              ><img src="https://i.pinimg.com/474x/1e/d6/e0/1ed6e0a9e69176a5fdb7e090a1046b86.jpg" alt="" width="4%"
+            /></a>
+          </div>
+
+          <span>&copy; Copyright.All Rights Reserved. </span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script
+    src="https://kit.fontawesome.com/58a810656e.js"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: ["Love", "Gifts", "Happiness"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</html>
